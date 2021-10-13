@@ -14,6 +14,7 @@ GitHub: https://github.com/IndoorCorgi/cgsensor
 3) 拡張基板
   RPZ-IR-Sensor: https://www.indoorcorgielec.com/products/rpz-ir-sensor/
   RPi TPH Monitor: https://www.indoorcorgielec.com/products/rpi-tph-monitor-rev2/
+  RPZ-CO2-Sensor: https://www.indoorcorgielec.com/products/rpz-co2-sensor/
 
 4) cgsensorパッケージ
   sudo python3 -m pip install -U cgsensor
