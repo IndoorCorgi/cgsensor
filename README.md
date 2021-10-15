@@ -20,6 +20,7 @@ OS: Raspberry Pi OS
 ## 拡張基板
 - [RPZ-IR-Sensor](https://www.indoorcorgielec.com/products/rpz-ir-sensor/) (Raspberry Pi用 温度/湿度/気圧/明るさ/赤外線 ホームIoT拡張ボード)
 - [RPi TPH Monitor](https://www.indoorcorgielec.com/products/rpi-tph-monitor-rev2/) (Raspberry Pi用 温度/湿度/気圧/赤外線 ホームIoT拡張ボード)
+- [RPZ-CO2-Sensor](https://www.indoorcorgielec.com/products/rpz-co2-sensor/) (Raspberry Pi用 二酸化炭素センサー/リレー 拡張基板)
 
 ## インストール
 以下のコマンドでインストール/アップグレードできます。
@@ -30,3 +31,5 @@ OS: Raspberry Pi OS
 コマンドラインから`cgsensor -h`を実行することでオプションの解説が表示されます。各センサーの使い方は、以下の解説記事をご参照下さい。
 
 - [BME280センサーとRaspberry Piで気温、湿度、気圧を測定する](https://www.indoorcorgielec.com/resources/raspberry-pi/cgsensor-bme280/)
+- [TSL2572センサーとRaspberry Piで明るさ(照度)を測定する](https://www.indoorcorgielec.com/resources/raspberry-pi/cgsensor-tsl2572/)
+- [SCD41 CO2センサーとRaspberry Piで二酸化炭素濃度を測定する](https://www.indoorcorgielec.com/resources/raspberry-pi/cgsensor-scd41/)
