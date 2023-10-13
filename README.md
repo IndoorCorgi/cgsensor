@@ -18,6 +18,8 @@ OS: Raspberry Pi OS
 - Raspberry Pi Zero
 
 ## 拡張基板
+- [RPZ-PIRS](https://www.indoorcorgielec.com/products/rpz-pirs/)
+(Raspberry Pi用 人感/明るさセンサー/赤外線 拡張基板)
 - [RPZ-IR-Sensor](https://www.indoorcorgielec.com/products/rpz-ir-sensor/) (Raspberry Pi用 温度/湿度/気圧/明るさ/赤外線 ホームIoT拡張ボード)
 - [RPi TPH Monitor](https://www.indoorcorgielec.com/products/rpi-tph-monitor-rev2/) (Raspberry Pi用 温度/湿度/気圧/赤外線 ホームIoT拡張ボード)
 - [RPZ-CO2-Sensor](https://www.indoorcorgielec.com/products/rpz-co2-sensor/) (Raspberry Pi用 二酸化炭素センサー/リレー 拡張基板)
