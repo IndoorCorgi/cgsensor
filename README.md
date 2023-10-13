@@ -25,7 +25,7 @@ OS: Raspberry Pi OS
 ## インストール
 以下のコマンドでインストール/アップグレードできます。
 
-`sudo python3 -m pip install -U cgsensor`
+`sudo python3 -m pip install -U cgsensor --break-system-packages`
 
 ## 使い方
 コマンドラインから`cgsensor -h`を実行することでオプションの解説が表示されます。各センサーの使い方は、以下の解説記事をご参照下さい。
