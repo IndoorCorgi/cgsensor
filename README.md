@@ -12,10 +12,17 @@ Indoor Corgi製Raspberry Pi用拡張基板の各種センサーを制御する�
 OS: Raspberry Pi OS
 
 ## 動作確認済モデル
+- Raspberry Pi 5
 - Raspberry Pi 4 Model B
 - Raspberry Pi 3 Model B/B+
+- Raspberry Pi Zero 2 W
 - Raspberry Pi Zero W/WH
 - Raspberry Pi Zero
+
+## Raspberry Pi 5で確認している問題
+Raspberry Pi 5でI2C信号タイミングがシビアすぎるためにTSL2572明るさ(照度)センサーを認識しない問題が起きています. 
+修正済みの[kernel6.6.y](https://github.com/raspberrypi/linux/pull/5916)で解決することを
+確認しています. kernelのリリースを待つか, 手動でプレリリース版にアップデートするなどして対応してください. 
 
 ## 拡張基板
 - [RPZ-PIRS](https://www.indoorcorgielec.com/products/rpz-pirs/)
