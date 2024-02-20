@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='cgsensor',
-    version='1.0',
+    version='1.1',
     description='Python package and command line tool to control sensors on Raspberry Pi',
     author='Indoor Corgi',
     author_email='indoorcorgi@gmail.com',
