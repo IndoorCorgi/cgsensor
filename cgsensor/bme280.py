@@ -173,7 +173,7 @@ class BME280:
 
     Args:
       t_standby: Normal mode測定間隔. T_STANDBY_xで指定. 
-      filter: 温度のオーバーサンプリング. OVER_SAMPLING_xで指定.
+      filter: 測定値の平滑化を行うかどうか. FILTER_xで指定.
     """
     data = (t_standby << 5) | (filter << 2)
     self.write_register(0xF5, [data])  # ctrl_configレジスター
