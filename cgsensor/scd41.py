@@ -361,7 +361,7 @@ class SCD41:
       if self.calculate_crc([data[i * 3], data[i * 3 + 1]]) != data[i * 3 + 2]:
         raise CRCMismatchError
 
-    return ((data[0] << 40) + (data[1] << 32) + (data[2] << 24) + (data[3] << 16) + (data[4] << 8) + data[5])
+    return ((data[0] << 40) + (data[1] << 32) + (data[3] << 24) + (data[4] << 16) + (data[6] << 8) + data[7])
 
 
 class CRCMismatchError(Exception):
