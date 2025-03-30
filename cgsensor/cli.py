@@ -2,7 +2,7 @@
 Raspberry Pi 拡張基板用センサー制御コマンドラインツール
 Indoor Corgi, https://www.indoorcorgielec.com
 GitHub: https://github.com/IndoorCorgi/cgsensor
-Version 1.1
+Version 1.2
 
 必要環境:
 1) Raspberry Pi OS, Python3
